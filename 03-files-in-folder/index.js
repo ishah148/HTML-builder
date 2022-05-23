@@ -4,7 +4,6 @@ const path = require('path');
 
 readFiles('03-files-in-folder/secret-folder/')
 async function readFiles(folder) {
-    const currentFolder = '03-files-in-folder/secret-folder/';
     const files = await fs.readdir(folder, { withFileTypes: true })
     for (file of files) {
         const size = (await fs.stat(folder + file.name)).size/1000 + 'kB'
@@ -15,3 +14,4 @@ async function readFiles(folder) {
     return files
 }
 
+// При наличии каких-либо ошибок прошу связяться со мной telegram: @IgorTg123 discord: IgorShah(@ishah148)#3091

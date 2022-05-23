@@ -12,3 +12,4 @@ rl.question('Please, input text? ', (answer) => {
     console.log(`Thank you for your valuable feedback: ${answer}`);
     rl.close();
 });
+// При наличии каких-либо ошибок прошу связяться со мной telegram: @IgorTg123 discord: IgorShah(@ishah148)#3091
