@@ -12,9 +12,7 @@ async function copyDir(firstPath, secondPath) {
 
 }
 
-
 async function readFiles(folder,show = false) {
     const files = await fs.readdir(folder, { withFileTypes: true })
-
     return files
 }
