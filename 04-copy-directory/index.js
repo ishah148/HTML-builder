@@ -9,9 +9,12 @@ async function copyDir(firstPath, secondPath) {
     for(let file of files){
         fs.copyFile(firstPath + '/' + file.name, secondPath + '/' + file.name) 
     }
+
 }
+
 
 async function readFiles(folder,show = false) {
     const files = await fs.readdir(folder, { withFileTypes: true })
+
     return files
 }
