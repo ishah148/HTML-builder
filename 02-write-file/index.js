@@ -9,7 +9,7 @@ rl.question('Please, input text? ', (answer) => {
             console.log(err)
         }
     });
-    console.log(`Thank you for your valuable feedback: ${answer}`);
+    console.log(`You entered : ${answer}`);
     rl.close();
 });
 // При наличии каких-либо ошибок прошу связяться со мной telegram: @IgorTg123 discord: IgorShah(@ishah148)#3091
